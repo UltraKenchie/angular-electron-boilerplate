@@ -1,4 +1,4 @@
-[![Angular Logo](https://www.vectorlogo.zone/logos/angular/angular-icon.svg)](https://angular.io/) [![Electron Logo](https://www.vectorlogo.zone/logos/electronjs/electronjs-icon.svg)](https://electronjs.org/)
+[![Angular Logo](https://www.vectorlogo.zone/logos/angular/angular-icon.svg)](https://angular.io/) [![Electron Logo](https://www.vectorlogo.zone/logos/electronjs/electronjs-icon.svg)](https://electronjs.org/)[![Bootstrap Logo](https://www.vectorlogo.zone/logos/getbootstrap/getbootstrap-icon.svg)](https://getbootstrap.com/)[![Fontawesome 5 Logo](https://svgshare.com/i/DT1.svg)](https://fontawesome.com)
 
 # Introduction
 
@@ -23,7 +23,7 @@ With this sample, you can :
 Clone this repository locally :
 
 ``` bash
-git clone this-repo
+git clone https://github.com/UltraKenchie/angular-electron-boilerplate.git
 ```
 
 Install dependencies with npm :
@@ -56,7 +56,7 @@ You can disable "Developer Tools" by commenting `win.webContents.openDevTools();
 
 |Command|Description|
 |--|--|
-|`npm run ng:serve:web`| Execute the app in the browser |
+|`npm run ng:serve:web` or `npm run web`| Execute the app in the browser |
 |`npm run build`| Build the app. Your built files are in the /dist folder. |
 |`npm run build:prod`| Build the app with Angular aot. Your built files are in the /dist folder. |
 |`npm run electron:local`| Builds your application and start electron
